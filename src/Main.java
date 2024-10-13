@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Placing order for product: " + productDescription);
         shoppingFacade.placeOrder(productDescription, cardNumber, cvv, expirationDate, address);
 
-        // Attempt to place order number 1 (with incorrect data)
+        // Attempt to place order number 2 (with incorrect data)
         System.out.println("-------------------------ATTEMPT 2-------------------------");
         productDescription = "Smartphone";
         cardNumber = "1234567812345678";
